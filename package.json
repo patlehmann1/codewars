@@ -1,0 +1,24 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "## About",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patlehmann1/codewars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patlehmann1/codewars/issues"
+  },
+  "homepage": "https://github.com/patlehmann1/codewars#readme"
+}

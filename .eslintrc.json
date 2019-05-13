@@ -1,0 +1,44 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "no-underscore-dangle": [
+      0
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true,
+        "optionalDependencies": false,
+        "peerDependencies": false
+      }
+    ],
+    "no-param-reassign": [
+      "error",
+      {
+        "props": true,
+        "ignorePropertyModificationsFor": [
+          "acc",
+          "e",
+          "ctx",
+          "req",
+          "request",
+          "res",
+          "response",
+          "$scope",
+          "server"
+        ]
+      }
+    ],
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "only-multiline",
+        "objects": "only-multiline",
+        "imports": "only-multiline",
+        "exports": "only-multiline",
+        "functions": "only-multiline"
+      }
+    ],
+    "camelcase": "off"
+  }
+}
